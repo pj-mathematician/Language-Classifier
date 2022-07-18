@@ -1,16 +1,12 @@
 World Language Classification by pjmathematician
 
-###########################
-        REQUIREMENTS
-###########################
+## REQUIREMENTS
 
 pip install -r requirements.txt
 
 INSTALLS ALL THE REQUIRED PACKAGES
 
-###########################
-        HOW TO USE
-###########################
+## HOW TO USE
 
 THREE WAYS TO USE THE PROGRAM:
 
@@ -26,9 +22,7 @@ MAKES output.json IN THE SAME DIRECTORY AS OF THE PROJECT
 python main.py /path/to/custom_input.json /path/to/custom_output.json
 MAKES CUSTOM OUTPUT FILE IN THE GIVEN PATH
 
-###########################
-        HOW IT WORKS
-###########################
+## HOW IT WORKS
 
 THERE ARE THREE DATA FILES, ONE FOR EACH LANGUAGE:
 esp_data.txt
@@ -49,9 +43,7 @@ SOME FILTERS ARE ADDED BEFORE THE MAIN PROGRAMS RUN, WHICH INCLUDE:
 3) TOKENIZING NUMERICAL AND DATA VALUES LIKE TIME/CURRENCY ETC AND
    ADDING APPROPRIATE SUFFIX
 
-###########################
-        WORKFLOW
-###########################
+## WORKFLOW
 
 DEFINING 4 FUNCTIONS:
 1) check_if_english(word)
@@ -75,9 +67,8 @@ THE world_language_classification(inpp,outp) FUNCTION
 PARSES THE INPUT JSON FILE AND CALLS THE do() FUNCTION. WRITES THE OUTPUT
 IN THE APPROPRIATE JSON FILE.
 
-###########################
-        CONTACT AND MISC
-###########################
+## CONTACT AND MISC
+
 I HAVE TRIED MY BEST TO KEEP THIS PROJECT FAST AND INDEPENDENT AS MUCH AS
 POSSIBLE.
 
